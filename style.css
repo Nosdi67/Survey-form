@@ -1,0 +1,89 @@
+#wrapper{
+
+    background-color: rgba(0, 255, 255, 0.201);
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+#title{
+    margin-bottom: 0px;
+}
+#description{
+    color: black;
+}
+
+.formDiv{
+
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    border: solid 1px black;
+    border-radius: 10%;
+    width: fit-content;
+    margin: 10px 50px;
+    padding: 40px;
+    background-color: rgba(73, 73, 192, 0.547);
+    
+}
+fieldset{
+    border: none;
+}
+select{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 400PX;
+    text-align: justify;
+}
+input{
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    text-align: justify;
+}
+#name{
+    width: 400px;
+}
+#email{
+    width: 400PX;
+}
+#number{
+    width: 400px;
+}
+legend{
+    margin: 5px;
+}
+#choice{
+    padding: 0px;
+    margin: 5px 0px;
+}
+label{
+    padding-left: 15px;;
+}
+#comments{
+    width: 400px;
+    height: 200px;   
+}
+#submit{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 22px;
+}
